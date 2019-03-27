@@ -1,5 +1,12 @@
 # tp-tu
 
+## Projet pour démarrer des exercices sur les tests unitaires, avec JS/Vue/Jest
+
+https://jestjs.io/docs/en/using-matchers[Jest doc]
+https://jestjs.io/docs/en/expect#toequalvalue[Jest API]
+
+Support du cours dans /public
+
 ## Project setup
 ```
 npm install
