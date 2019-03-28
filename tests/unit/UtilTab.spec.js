@@ -1,8 +1,9 @@
-import C from '@/models/C.js'
+import UtilTab from '@/models/UtilTab.js'
 
 test('Exemple de test d\'une fonction', () => {
-    const tab = [1,2,3]
-    expect(C.nMax(tab)).toEqual(1)
+    const tab = ['testA', 'testB']
+    expect(UtilTab.toHtmlTab(tab, 2)).toMatch('<td>testA</td>')
+    expect(UtilTab.toHtmlTab(tab, 2)).toMatch('<td>testB</td>')
 })
 
 
