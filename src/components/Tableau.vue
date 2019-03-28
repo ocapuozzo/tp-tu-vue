@@ -11,7 +11,8 @@ import UtilTab from "@/models/UtilTab.js"
 export default {
   name: 'Tableau',
   props: {
-    _tab: Array
+    _tab: Array,
+    maxRows : 2
   }, 
   mounted() {
     if (this._tab) {
@@ -21,7 +22,7 @@ export default {
   computed : {
      tab : {
        get: function() {
-         return UtilTab.toHtmlTab(this.tabhtml)
+         return UtilTab.toHtmlTab(this.tabhtml, this.maxRows)
        },
        set(value) {
           this.tabhtml = value 

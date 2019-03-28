@@ -2,10 +2,12 @@
 
 ## Projet pour démarrer des exercices sur les tests unitaires, avec JS/Vue/Jest
 
-https://jestjs.io/docs/en/using-matchers[Jest doc]
-https://jestjs.io/docs/en/expect#toequalvalue[Jest API]
+* [Jest doc] (https://jestjs.io/docs/en/using-matchers)
+* [Jest API] (https://jestjs.io/docs/en/expect#toequalvalue)
+* [Support du cours] (./public/supportCoursTestUnitaire.pdf)
+* [un helper Jest pour Vue] (https://vue-test-utils.vuejs.org/guides/#getting-started)
 
-Support du cours dans /public
+  => voir différents usages 
 
 ## Project setup
 ```
@@ -15,21 +17,6 @@ npm install
 ### Compiles and hot-reloads for development
 ```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Run your unit tests

@@ -1,11 +1,12 @@
 export default class UtilTab {
 
-    static toHtmlTab(arr) {
-        if (arr) {
-            // rr
-        }
-        return `
+	static toHtmlTab(arr, maxRows) {
+		if (arr && !maxRows) {
+			// ...
+		}
+		return `
         <table>
+         <tbody>
           <tr>
             <td>testA</td>
           </tr>
@@ -21,9 +22,8 @@ export default class UtilTab {
           <tr>
             <td>testE</td>
           </tr>
+         </tbody>
         </table>         
         `
-    }
+	}
 }
-
-
