@@ -12,7 +12,7 @@ export default {
   name: 'Tableau',
   props: {
     _tab: Array,
-    maxRows : 2
+    maxRows : Number(2)
   }, 
   mounted() {
     if (this._tab) {
