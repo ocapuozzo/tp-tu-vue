@@ -16,16 +16,18 @@ export default {
   }, 
   mounted() {
     if (this._tab) {
-      this.tab = this._tab
+      this.tableau = this._tab
+    } else {
+      this.tableau = []
     }
   },
   computed : {
      tab : {
        get: function() {
-         return UtilTab.toHtmlTab(this.tabhtml, this.maxRows)
+         return UtilTab.toHtmlTab(this.tableau, this.maxRows)
        },
        set(value) {
-          this.tabhtml = value 
+          this.tableau = value 
        }
      }
   }
